@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: lightblue;
+}
+header, .main, footer{
+    width:90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+header nav{
+    background: lightpink;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+ header nav ul li{
+    float: left;
+ }
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    background: lightblue;   
+}
+
+.main .articles{
+    width:68.5%;
+    float:left;
+    background-color:lightblue;
+    margin-right:1.5%;   
+}
+.main .articles article{
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+aside{
+    width: 30%;
+    background-color: plum;
+    float: left;
+    padding:20px;
+    box-sizing: border-box;
+}
+footer{
+    background-color: lightcoral;
+    clear: both;
+    padding: 10px 0px; 
+    text-align: center;
+}
+
+
+
+/*el div se utiliza para imagenes y gráficos*
+- la etiqueta "header nav ul" es para quitar viñetas
+- la etiqueta "header nav ul li a:hover" es para cambiar color que cambia el cursor al ponerlo encima
+- 
